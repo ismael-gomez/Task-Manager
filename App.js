@@ -1,10 +1,14 @@
+import React from 'react';
 import { StatusBar } from 'expo-status-bar';
 import { StyleSheet, Text, View } from 'react-native';
+import Rounting from './src/route/Rounting';
+import Footer from './src/component/Footer';
 
 export default function App() {
   return (
     <View style={styles.container}>
-      <Text>Prueba hola</Text>
+      <Rounting/>
+      <Footer/>
       <StatusBar style="auto" />
     </View>
   );
@@ -12,9 +16,6 @@ export default function App() {
 
 const styles = StyleSheet.create({
   container: {
-    flex: 1,
-    backgroundColor: '#fff',
-    alignItems: 'center',
-    justifyContent: 'center',
+    flex :1,
   },
 });
