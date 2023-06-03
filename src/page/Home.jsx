@@ -16,7 +16,7 @@ function Home(props) {
       </Text>
 
       <Text>
-        si la verdad { object} hola
+        si la verdad { object} 
       </Text>
     </View>
   )
